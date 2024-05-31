@@ -116,6 +116,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(203, 49);
             this.guna2Button1.TabIndex = 7;
             this.guna2Button1.Text = "Decrypt Code";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // btnEncrypt
             // 
