@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Encryption_App.Forms
 {
-    public partial class AESForm : Form
+    public partial class AESDecryptionForm : Form
     {
-        public AESForm()
+        public AESDecryptionForm()
         {
             InitializeComponent();
         }
@@ -30,21 +30,6 @@ namespace Encryption_App.Forms
 
             string encryptedMessage = ColumnarTranspositionCipher.EncryptMessage(message, key);
             richTextBox1.Text = encryptedMessage;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            string cipherText = textBox1.Text;
-            string key = textBox2.Text;
-
-            if (string.IsNullOrEmpty(cipherText) || string.IsNullOrEmpty(key))
-            {
-                MessageBox.Show("Please enter both the ciphertext and the key.");
-                return;
-            }
-
-            string decryptedMessage = ColumnarTranspositionCipher.DecryptMessage(cipherText, key);
-            richTextBox1.Text = decryptedMessage;
         }
 
         public static class ColumnarTranspositionCipher
@@ -148,33 +133,12 @@ namespace Encryption_App.Forms
             richTextBox1.Text = string.Empty;
         }
 
-        private void AESForm_Load(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
+            Hide();
+            var form = new ChoiceForm();
+            form.FormClosed += (s, args) => Close();
+            form.Show();
         }
     }
 }

@@ -1,23 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Forms\AESForm.cs">
+    <Compile Update="FormsDecrypt\ColumnarDecryptionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\ChoiceForm.cs">
+    <Compile Update="FormsDecrypt\RailFenceDecryptForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\MainMenu.cs">
+    <Compile Update="FormsEncrypt\AESForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\PlayFairForm.cs">
+    <Compile Update="FormsDecrypt\ChoiceDecryptionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\RailFenceForm.cs">
+    <Compile Update="FormsEncrypt\ChoiceForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\XORForm.cs">
+    <Compile Update="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormsEncrypt\PlayFairForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsEncrypt\RailFenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsEncrypt\XORForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="MainMenu.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

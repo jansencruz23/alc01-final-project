@@ -1,6 +1,6 @@
 ﻿namespace Encryption_App.Forms
 {
-    partial class ChoiceForm
+    partial class ChoiceDecryptionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChoiceForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChoiceDecryptionForm));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -56,7 +56,7 @@
             // 
             // label1
             // 
-            label1.Font = new Font("Microsoft Sans Serif", 40F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Playground", 40F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(254, 102, 3);
             label1.Location = new Point(2, 115);
             label1.Name = "label1";
@@ -211,7 +211,7 @@
             pictureBox2.TabIndex = 16;
             pictureBox2.TabStop = false;
             // 
-            // ChoiceForm
+            // ChoiceDecryptionForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -226,7 +226,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
-            Name = "ChoiceForm";
+            Name = "ChoiceDecryptionForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ChoiceForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

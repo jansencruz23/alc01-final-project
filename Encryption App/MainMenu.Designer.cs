@@ -52,7 +52,7 @@
             // 
             // label1
             // 
-            label1.Font = new Font("Microsoft Sans Serif", 48F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Playground", 48F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(254, 102, 3);
             label1.Location = new Point(-1, 92);
             label1.Name = "label1";
@@ -110,12 +110,13 @@
             guna2Button1.FillColor = Color.FromArgb(254, 102, 3);
             guna2Button1.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(230, 295);
+            guna2Button1.Location = new Point(230, 305);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button1.Size = new Size(203, 49);
             guna2Button1.TabIndex = 7;
             guna2Button1.Text = "Decrypt Code";
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // btnEncrypt
             // 
