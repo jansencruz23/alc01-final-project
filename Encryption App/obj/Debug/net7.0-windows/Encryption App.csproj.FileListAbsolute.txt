@@ -52,3 +52,33 @@ D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\rubics.png
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.RailFenceForm.resources
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\blocks.png
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\puzzle.png
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\rubics.png
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.exe
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.deps.json
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.runtimeconfig.json
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.dll
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.pdb
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Guna.UI2.dll
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\System.Management.dll
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.AssemblyReference.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.AESForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.MainMenu.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.PlayFairForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.RailFenceForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Properties.Resources.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.GenerateResource.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfoInputs.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfo.cs
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CoreCompileInputs.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CopyComplete
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.dll
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\refint\Encryption App.dll
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.pdb
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.genruntimeconfig.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\ref\Encryption App.dll
