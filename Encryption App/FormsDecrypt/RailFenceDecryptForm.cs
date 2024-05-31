@@ -83,7 +83,7 @@ namespace Encryption_App.FormsDecrypt
                 letterSizes[currentRail + 1]++;
                 if (descending)
                 {
-                    if (currentRail+1 == _rails)
+                    if (currentRail + 1 == _rails)
                     {
                         descending = false;
                         currentRail--;
@@ -119,7 +119,7 @@ namespace Encryption_App.FormsDecrypt
             var output = "";
             var letterCounts = new int[_rails];
             currentRail = 0;
-            
+
             for (int i = 0; i < input.Length; i++)
             {
                 output += letters[currentRail][letterCounts[currentRail]];
@@ -183,6 +183,11 @@ namespace Encryption_App.FormsDecrypt
             lblNotif.Visible = true;
             await Task.Delay(2000);
             lblNotif.Visible = false;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
         }
     }
 }
