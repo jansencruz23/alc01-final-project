@@ -4,10 +4,16 @@
     <Compile Update="Forms\AESForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\ChoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\PlayFairForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RailFenceForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\XORForm.cs">

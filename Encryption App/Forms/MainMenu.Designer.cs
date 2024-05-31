@@ -37,12 +37,15 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnEncrypt = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -133,6 +136,28 @@
             this.btnEncrypt.Size = new System.Drawing.Size(203, 49);
             this.btnEncrypt.TabIndex = 8;
             this.btnEncrypt.Text = "Encrypt Text";
+            this.btnEncrypt.Click += new System.EventHandler(this.btnEncrypt_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.btnExit.BorderRadius = 10;
+            this.btnExit.BorderThickness = 2;
+            this.btnExit.CustomizableEdges = customizableEdges9;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.btnExit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
+            this.btnExit.Location = new System.Drawing.Point(593, 12);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            this.btnExit.Size = new System.Drawing.Size(56, 49);
+            this.btnExit.TabIndex = 15;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // MainMenu
             // 
@@ -140,6 +165,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(239)))), ((int)(((byte)(212)))));
             this.ClientSize = new System.Drawing.Size(661, 494);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnEncrypt);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2PictureBox2);
@@ -147,6 +173,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "MainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
@@ -162,5 +189,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button btnEncrypt;
+        private Guna.UI2.WinForms.Guna2Button btnExit;
     }
 }

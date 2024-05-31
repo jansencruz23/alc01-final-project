@@ -50,3 +50,5 @@ D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Properties.Resources.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\blocks.png
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\rubics.png
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.RailFenceForm.resources
