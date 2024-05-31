@@ -12,7 +12,7 @@ namespace Encryption_App.Forms
 {
     public partial class RailFenceForm : Form
     {
-        private int _rails; 
+        private int _rails;
         public RailFenceForm()
         {
             InitializeComponent();
