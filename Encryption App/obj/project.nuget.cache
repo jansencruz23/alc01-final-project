@@ -1,12 +1,32 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "DoZasUsyCsM=",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "EAKNJHte+O6mft5tT66v7OkrovTaPZnkbqkqieJ939NFA4GtAOpZ2MXVsPWHDR+FMEWL4FiT9fTRS67wJOkVDw==",
+  "success": true,
+  "projectFilePath": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alfon\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\alfon\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\alfon\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+=======
+  "dgSpecHash": "2D6hCXCxlhdRWq2rytlNI7DcRnyOTMXCZ0SrjNp041gH6TiTE/ubeHaqguxda1OSVCKn+65uolzhuL3DS+F2dA==",
+>>>>>>> b613f57bce7ed57b788989ea115ba1f385983ac3
   "success": true,
   "projectFilePath": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\Encryption App.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\OASIS\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
     "C:\\Users\\OASIS\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\OASIS\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+=======
+    "C:\\Users\\David\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+>>>>>>> f57d1dfea30b4aaf078a2ca3368b62ff4fb45bc2
+>>>>>>> b613f57bce7ed57b788989ea115ba1f385983ac3
   ],
   "logs": []
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\OASIS\Documents\GitHub\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\blocks.png
 C:\Users\OASIS\Documents\GitHub\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\puzzle.png
 C:\Users\OASIS\Documents\GitHub\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\rubics.png
@@ -32,3 +33,72 @@ C:\Users\OASIS\Documents\GitHub\alc01-final-project\Encryption App\obj\Debug\net
 C:\Users\OASIS\Documents\GitHub\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.pdb
 C:\Users\OASIS\Documents\GitHub\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.genruntimeconfig.cache
 C:\Users\OASIS\Documents\GitHub\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\ref\Encryption App.dll
+=======
+<<<<<<< HEAD
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.AssemblyReference.cache
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.AESForm.resources
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceForm.resources
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.MainMenu.resources
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.PlayFairForm.resources
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.RailFenceForm.resources
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm.resources
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm_Decrypt.resources
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Properties.Resources.resources
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.GenerateResource.cache
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.GeneratedMSBuildEditorConfig.editorconfig
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfoInputs.cache
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfo.cs
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CoreCompileInputs.cache
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\blocks.png
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\puzzle.png
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\rubics.png
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.exe
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.deps.json
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.runtimeconfig.json
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.dll
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.pdb
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Guna.UI2.dll
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\System.Management.dll
+D:\ALC\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CopyComplete
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.dll
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\refint\Encryption App.dll
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.pdb
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.genruntimeconfig.cache
+D:\ALC\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\ref\Encryption App.dll
+=======
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.AssemblyReference.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceDecryptionForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.RailFenceDecryptForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.PlayFairForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.RailFenceForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Properties.Resources.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.GenerateResource.cache
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\blocks.png
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\puzzle.png
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\rubics.png
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.exe
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.deps.json
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.runtimeconfig.json
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.dll
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.pdb
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Guna.UI2.dll
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\System.Management.dll
+D:\Ivan\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.MainMenu.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfoInputs.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfo.cs
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CoreCompileInputs.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CopyComplete
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.dll
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\refint\Encryption App.dll
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.pdb
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.genruntimeconfig.cache
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\ref\Encryption App.dll
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.ColumnarDecryptionForm.resources
+D:\Ivan\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.AESDecryptionForm.resources
+>>>>>>> f57d1dfea30b4aaf078a2ca3368b62ff4fb45bc2
+>>>>>>> b613f57bce7ed57b788989ea115ba1f385983ac3

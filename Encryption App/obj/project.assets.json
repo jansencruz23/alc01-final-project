@@ -145,13 +145,35 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\OASIS\\.nuget\\packages\\": {},
+=======
+<<<<<<< HEAD
+    "C:\\Users\\alfon\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\David\\.nuget\\packages\\": {},
+>>>>>>> b613f57bce7ed57b788989ea115ba1f385983ac3
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> f57d1dfea30b4aaf078a2ca3368b62ff4fb45bc2
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+      "projectName": "Encryption App",
+      "projectPath": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+      "packagesPath": "C:\\Users\\alfon\\.nuget\\packages\\",
+      "outputPath": "D:\\ALC\\alc01-final-project\\Encryption App\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\alfon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\Ivan\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+>>>>>>> b613f57bce7ed57b788989ea115ba1f385983ac3
       "projectName": "Encryption App",
       "projectPath": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\Encryption App.csproj",
       "packagesPath": "C:\\Users\\OASIS\\.nuget\\packages\\",
@@ -163,6 +185,7 @@
       "configFilePaths": [
         "C:\\Users\\OASIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> f57d1dfea30b4aaf078a2ca3368b62ff4fb45bc2
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
