@@ -1,0 +1,24 @@
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.AssemblyReference.cache
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.AESForm.resources
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption_App.MainMenu.resources
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm.resources
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.GenerateResource.cache
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfoInputs.cache
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfo.cs
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CoreCompileInputs.cache
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.exe
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.deps.json
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.runtimeconfig.json
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.dll
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.pdb
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Guna.UI2.dll
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\System.Management.dll
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CopyComplete
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.dll
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\refint\Encryption App.dll
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.pdb
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.genruntimeconfig.cache
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\ref\Encryption App.dll
+C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.PlayFairForm.resources
