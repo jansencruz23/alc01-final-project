@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Encryption_App.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,19 @@ namespace Encryption_App
         public MainMenu()
         {
             InitializeComponent();
+        }
+
+        private void btnEncrypt_Click(object sender, EventArgs e)
+        {
+            Hide();
+            var form = new ChoiceForm();
+            form.FormClosed += (s, args) => Close();
+            form.Show();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
         }
     }
 }
