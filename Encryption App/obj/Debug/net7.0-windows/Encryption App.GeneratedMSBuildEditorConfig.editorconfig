@@ -14,4 +14,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Encryption_App
+<<<<<<< HEAD
 build_property.ProjectDir = D:\ALC\alc01-final-project\Encryption App\
+=======
+build_property.ProjectDir = D:\Ivan\alc01-final-project\Encryption App\
+>>>>>>> f57d1dfea30b4aaf078a2ca3368b62ff4fb45bc2

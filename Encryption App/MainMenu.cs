@@ -18,6 +18,11 @@ namespace Encryption_App
             InitializeComponent();
         }
 
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
+
         private void btnEncrypt_Click(object sender, EventArgs e)
         {
             Hide();
@@ -26,9 +31,12 @@ namespace Encryption_App
             form.Show();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Environment.Exit(1);
+            Hide();
+            var form = new ChoiceDecryptionForm();
+            form.FormClosed += (s, args) => Close();
+            form.Show();
         }
     }
 }

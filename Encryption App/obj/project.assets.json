@@ -145,11 +145,17 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\alfon\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\David\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> f57d1dfea30b4aaf078a2ca3368b62ff4fb45bc2
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
       "projectName": "Encryption App",
       "projectPath": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
@@ -158,6 +164,20 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alfon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\Ivan\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+      "projectName": "Encryption App",
+      "projectPath": "D:\\Ivan\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+      "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+      "outputPath": "D:\\Ivan\\alc01-final-project\\Encryption App\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> f57d1dfea30b4aaf078a2ca3368b62ff4fb45bc2
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -119,7 +119,7 @@ namespace Encryption_App.Forms
         private void btnBack_Click(object sender, EventArgs e)
         {
             Hide();
-            var form = new MainMenu();
+            var form = new ChoiceForm();
             form.FormClosed += (s, args) => Close();
             form.Show();
         }

@@ -20,7 +20,7 @@ namespace Encryption_App.Forms
         private void btnAES_Click(object sender, EventArgs e)
         {
             Hide();
-            var form = new AESForm();
+            var form = new AESDecryptionForm();
             form.FormClosed += (s, args) => Close();
             form.Show();
         }

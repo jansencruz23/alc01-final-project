@@ -28,25 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RailFenceForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RailFenceForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.txtInput = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -64,14 +68,22 @@
             this.lblMessageError = new System.Windows.Forms.Label();
             this.lblKeyError = new System.Windows.Forms.Label();
             this.lblNotif = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelAnswer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // txtInput
             // 
             this.txtInput.BorderRadius = 10;
             this.txtInput.BorderThickness = 0;
-            this.txtInput.CustomizableEdges = customizableEdges19;
+            this.txtInput.CustomizableEdges = customizableEdges1;
             this.txtInput.DefaultText = "";
             this.txtInput.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtInput.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -86,7 +98,7 @@
             this.txtInput.PasswordChar = '\0';
             this.txtInput.PlaceholderText = "";
             this.txtInput.SelectedText = "";
-            this.txtInput.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            this.txtInput.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.txtInput.Size = new System.Drawing.Size(375, 51);
             this.txtInput.TabIndex = 0;
             // 
@@ -116,7 +128,7 @@
             this.btnEncrypt.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
             this.btnEncrypt.BorderRadius = 10;
             this.btnEncrypt.BorderThickness = 2;
-            this.btnEncrypt.CustomizableEdges = customizableEdges21;
+            this.btnEncrypt.CustomizableEdges = customizableEdges3;
             this.btnEncrypt.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnEncrypt.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnEncrypt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -126,7 +138,7 @@
             this.btnEncrypt.ForeColor = System.Drawing.Color.White;
             this.btnEncrypt.Location = new System.Drawing.Point(232, 384);
             this.btnEncrypt.Name = "btnEncrypt";
-            this.btnEncrypt.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            this.btnEncrypt.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.btnEncrypt.Size = new System.Drawing.Size(203, 49);
             this.btnEncrypt.TabIndex = 9;
             this.btnEncrypt.Text = "Encrypt!";
@@ -138,11 +150,11 @@
             this.panelAnswer.Controls.Add(this.label4);
             this.panelAnswer.Controls.Add(this.btnCopy);
             this.panelAnswer.Controls.Add(this.lblResult);
-            this.panelAnswer.CustomizableEdges = customizableEdges25;
+            this.panelAnswer.CustomizableEdges = customizableEdges7;
             this.panelAnswer.FillColor = System.Drawing.Color.White;
             this.panelAnswer.Location = new System.Drawing.Point(143, 457);
             this.panelAnswer.Name = "panelAnswer";
-            this.panelAnswer.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            this.panelAnswer.ShadowDecoration.CustomizableEdges = customizableEdges8;
             this.panelAnswer.Size = new System.Drawing.Size(375, 163);
             this.panelAnswer.TabIndex = 10;
             this.panelAnswer.Visible = false;
@@ -164,7 +176,7 @@
             this.btnCopy.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
             this.btnCopy.BorderRadius = 10;
             this.btnCopy.BorderThickness = 2;
-            this.btnCopy.CustomizableEdges = customizableEdges23;
+            this.btnCopy.CustomizableEdges = customizableEdges5;
             this.btnCopy.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnCopy.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCopy.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -174,7 +186,7 @@
             this.btnCopy.ForeColor = System.Drawing.Color.White;
             this.btnCopy.Location = new System.Drawing.Point(296, 9);
             this.btnCopy.Name = "btnCopy";
-            this.btnCopy.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            this.btnCopy.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.btnCopy.Size = new System.Drawing.Size(71, 32);
             this.btnCopy.TabIndex = 22;
             this.btnCopy.Text = "Copy";
@@ -195,7 +207,7 @@
             this.btnExit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
             this.btnExit.BorderRadius = 10;
             this.btnExit.BorderThickness = 2;
-            this.btnExit.CustomizableEdges = customizableEdges27;
+            this.btnExit.CustomizableEdges = customizableEdges9;
             this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -206,7 +218,7 @@
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.Location = new System.Drawing.Point(593, 12);
             this.btnExit.Name = "btnExit";
-            this.btnExit.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            this.btnExit.ShadowDecoration.CustomizableEdges = customizableEdges10;
             this.btnExit.Size = new System.Drawing.Size(56, 49);
             this.btnExit.TabIndex = 16;
             // 
@@ -215,7 +227,7 @@
             this.btnRetry.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
             this.btnRetry.BorderRadius = 10;
             this.btnRetry.BorderThickness = 2;
-            this.btnRetry.CustomizableEdges = customizableEdges29;
+            this.btnRetry.CustomizableEdges = customizableEdges11;
             this.btnRetry.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnRetry.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnRetry.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -226,7 +238,7 @@
             this.btnRetry.Image = ((System.Drawing.Image)(resources.GetObject("btnRetry.Image")));
             this.btnRetry.Location = new System.Drawing.Point(531, 12);
             this.btnRetry.Name = "btnRetry";
-            this.btnRetry.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            this.btnRetry.ShadowDecoration.CustomizableEdges = customizableEdges12;
             this.btnRetry.Size = new System.Drawing.Size(56, 49);
             this.btnRetry.TabIndex = 17;
             this.btnRetry.Click += new System.EventHandler(this.btnRetry_Click);
@@ -236,7 +248,7 @@
             this.btnHome.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
             this.btnHome.BorderRadius = 10;
             this.btnHome.BorderThickness = 2;
-            this.btnHome.CustomizableEdges = customizableEdges31;
+            this.btnHome.CustomizableEdges = customizableEdges13;
             this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -247,7 +259,7 @@
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.Location = new System.Drawing.Point(12, 12);
             this.btnHome.Name = "btnHome";
-            this.btnHome.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            this.btnHome.ShadowDecoration.CustomizableEdges = customizableEdges14;
             this.btnHome.Size = new System.Drawing.Size(56, 49);
             this.btnHome.TabIndex = 18;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
@@ -257,7 +269,7 @@
             this.btnBack.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
             this.btnBack.BorderRadius = 10;
             this.btnBack.BorderThickness = 2;
-            this.btnBack.CustomizableEdges = customizableEdges33;
+            this.btnBack.CustomizableEdges = customizableEdges15;
             this.btnBack.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnBack.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnBack.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -269,7 +281,7 @@
             this.btnBack.ImageSize = new System.Drawing.Size(25, 25);
             this.btnBack.Location = new System.Drawing.Point(74, 12);
             this.btnBack.Name = "btnBack";
-            this.btnBack.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            this.btnBack.ShadowDecoration.CustomizableEdges = customizableEdges16;
             this.btnBack.Size = new System.Drawing.Size(56, 49);
             this.btnBack.TabIndex = 19;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
@@ -288,7 +300,7 @@
             // 
             this.txtKey.BorderRadius = 10;
             this.txtKey.BorderThickness = 0;
-            this.txtKey.CustomizableEdges = customizableEdges35;
+            this.txtKey.CustomizableEdges = customizableEdges17;
             this.txtKey.DefaultText = "";
             this.txtKey.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtKey.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -303,7 +315,7 @@
             this.txtKey.PasswordChar = '\0';
             this.txtKey.PlaceholderText = "";
             this.txtKey.SelectedText = "";
-            this.txtKey.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            this.txtKey.ShadowDecoration.CustomizableEdges = customizableEdges18;
             this.txtKey.Size = new System.Drawing.Size(375, 51);
             this.txtKey.TabIndex = 20;
             // 
@@ -346,6 +358,52 @@
             this.lblNotif.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.lblNotif.Visible = false;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.CustomizableEdges = customizableEdges19;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 445);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(201, 245);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 25;
+            this.guna2PictureBox1.TabStop = false;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.CustomizableEdges = customizableEdges21;
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(462, 433);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            this.guna2PictureBox2.Size = new System.Drawing.Size(201, 245);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 26;
+            this.guna2PictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(269, -251);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(441, 382);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-223, -56);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(441, 382);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 28;
+            this.pictureBox2.TabStop = false;
+            // 
             // RailFenceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -366,10 +424,19 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtInput);
+            this.Controls.Add(this.guna2PictureBox1);
+            this.Controls.Add(this.guna2PictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "RailFenceForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RailFenceForm";
             this.panelAnswer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -393,5 +460,9 @@
         private Label lblMessageError;
         private Label lblKeyError;
         private Label lblNotif;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }
