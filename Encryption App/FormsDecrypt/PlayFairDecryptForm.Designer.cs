@@ -97,11 +97,11 @@
             lblKeyError.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblKeyError.ForeColor = Color.Red;
             lblKeyError.ImageAlign = ContentAlignment.TopRight;
-            lblKeyError.Location = new Point(297, 360);
+            lblKeyError.Location = new Point(209, 360);
             lblKeyError.Name = "lblKeyError";
-            lblKeyError.Size = new Size(221, 21);
+            lblKeyError.Size = new Size(309, 21);
             lblKeyError.TabIndex = 41;
-            lblKeyError.Text = "Key is invalid";
+            lblKeyError.Text = "Key is invalid, must not contain numbers";
             lblKeyError.TextAlign = ContentAlignment.TopRight;
             lblKeyError.Visible = false;
             // 
@@ -110,11 +110,11 @@
             lblMessageError.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblMessageError.ForeColor = Color.Red;
             lblMessageError.ImageAlign = ContentAlignment.TopRight;
-            lblMessageError.Location = new Point(297, 255);
+            lblMessageError.Location = new Point(143, 255);
             lblMessageError.Name = "lblMessageError";
-            lblMessageError.Size = new Size(221, 21);
+            lblMessageError.Size = new Size(375, 21);
             lblMessageError.TabIndex = 40;
-            lblMessageError.Text = "Encrypted message is invalid";
+            lblMessageError.Text = "Encrypted message is invalid, must not contain numbers";
             lblMessageError.TextAlign = ContentAlignment.TopRight;
             lblMessageError.Visible = false;
             // 

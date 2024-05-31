@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\encryption app\\formsdecrypt\\playfairdecryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|solutionrelative:encryption app\\formsdecrypt\\playfairdecryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|c:\\users\\oasis\\documents\\github\\alc01-final-project\\encryption app\\formsdecrypt\\playfairdecryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|solutionrelative:encryption app\\formsdecrypt\\playfairdecryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\encryption app\\formsencrypt\\playfairform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|solutionrelative:encryption app\\formsencrypt\\playfairform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|c:\\users\\oasis\\documents\\github\\alc01-final-project\\encryption app\\formsdecrypt\\playfairdecryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|solutionrelative:encryption app\\formsdecrypt\\playfairdecryptform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A8F1FC4-D85F-455E-B9C2-ECF7297295EF}|Encryption App\\Encryption App.csproj|C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\encryption app\\formsencrypt\\railfenceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayFairDecryptForm.cs",
               "DocumentMoniker": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\FormsDecrypt\\PlayFairDecryptForm.cs",
               "RelativeDocumentMoniker": "Encryption App\\FormsDecrypt\\PlayFairDecryptForm.cs",
               "ToolTip": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\FormsDecrypt\\PlayFairDecryptForm.cs",
               "RelativeToolTip": "Encryption App\\FormsDecrypt\\PlayFairDecryptForm.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAmwJgAAAA3AAAA",
+              "ViewState": "AQIAACYAAAAA+/////8nwC0AAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T16:12:03.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayFairDecryptForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\FormsDecrypt\\PlayFairDecryptForm.cs",
               "RelativeDocumentMoniker": "Encryption App\\FormsDecrypt\\PlayFairDecryptForm.cs",
@@ -102,20 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayFairForm.cs",
               "DocumentMoniker": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\FormsEncrypt\\PlayFairForm.cs",
               "RelativeDocumentMoniker": "Encryption App\\FormsEncrypt\\PlayFairForm.cs",
               "ToolTip": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\FormsEncrypt\\PlayFairForm.cs",
               "RelativeToolTip": "Encryption App\\FormsEncrypt\\PlayFairForm.cs",
-              "ViewState": "AQIAAE8AAAAAxMzMzMwewGIAAAAuAAAA",
+              "ViewState": "AQIAAAsAAAAAxMzMzMwnwCMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T14:59:54.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayFairForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\FormsEncrypt\\PlayFairForm.cs",
               "RelativeDocumentMoniker": "Encryption App\\FormsEncrypt\\PlayFairForm.cs",

@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -42,7 +43,7 @@ namespace Encryption_App.FormsDecrypt
         {
             var isValid = true;
             var message = txtInput.Text;
-            if (string.IsNullOrWhiteSpace(message))
+            if (string.IsNullOrWhiteSpace(message) || Regex.IsMatch(txtInput.Text, @"\d"))
             {
                 lblMessageError.Visible = true;
                 isValid = false;
@@ -60,6 +61,11 @@ namespace Encryption_App.FormsDecrypt
             else
             {
                 lblKeyError.Visible = false;
+            }
+            if(Regex.IsMatch(txtKey.Text, @"\d"))
+            {
+                lblKeyError.Visible = true;
+                isValid = false;
             }
 
             return isValid;
