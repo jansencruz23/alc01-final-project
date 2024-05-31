@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\User\\Jansen\\Self Study\\2024 - 05 - MAY\\alc01-final-project\\Encryption App\\Encryption App.csproj": {}
+    "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj": {}
   },
   "projects": {
-    "D:\\User\\Jansen\\Self Study\\2024 - 05 - MAY\\alc01-final-project\\Encryption App\\Encryption App.csproj": {
+    "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\User\\Jansen\\Self Study\\2024 - 05 - MAY\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+        "projectUniqueName": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
         "projectName": "Encryption App",
-        "projectPath": "D:\\User\\Jansen\\Self Study\\2024 - 05 - MAY\\alc01-final-project\\Encryption App\\Encryption App.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\User\\Jansen\\Self Study\\2024 - 05 - MAY\\alc01-final-project\\Encryption App\\obj\\",
+        "projectPath": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+        "packagesPath": "C:\\Users\\alfon\\.nuget\\packages\\",
+        "outputPath": "D:\\ALC\\alc01-final-project\\Encryption App\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files\\Microsoft Visual Studio Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "D:\\User\\Jansen\\NuGet.Config",
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alfon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

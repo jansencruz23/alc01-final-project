@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "uM+2BvE1iXCRKAw8NWrRRhvaAHFdJsNWJKJXbFyVlKH0hnPePaNifHo7etUBp/UFucl8tpBHY3x1SUGXNidnjA==",
+  "dgSpecHash": "EAKNJHte+O6mft5tT66v7OkrovTaPZnkbqkqieJ939NFA4GtAOpZ2MXVsPWHDR+FMEWL4FiT9fTRS67wJOkVDw==",
   "success": true,
-  "projectFilePath": "D:\\User\\Jansen\\Self Study\\2024 - 05 - MAY\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+  "projectFilePath": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+    "C:\\Users\\alfon\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\alfon\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\alfon\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
