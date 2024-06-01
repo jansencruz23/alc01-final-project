@@ -1,3 +1,5 @@
+using Encryption_App.Forms;
+
 namespace Encryption_App
 {
     internal static class Program

@@ -13,7 +13,7 @@ namespace Encryption_App.Forms
 {
     public partial class RailFenceForm : Form
     {
-        private int _rails; 
+        private int _rails;
         public RailFenceForm()
         {
             InitializeComponent();
@@ -145,6 +145,11 @@ namespace Encryption_App.Forms
         {
             var form = new RailFenceInfo();
             form.ShowDialog();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
         }
     }
 }

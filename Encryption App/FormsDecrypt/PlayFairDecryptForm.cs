@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.Devices;
+﻿using Encryption_App.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,17 +10,18 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Encryption_App.Forms
+namespace Encryption_App.FormsDecrypt
 {
-    public partial class PlayFairForm : Form
+    public partial class PlayFairDecryptForm : Form
     {
         private string _key;
-        public PlayFairForm()
+        private char[,] keySquare = new char[5, 5];
+        public PlayFairDecryptForm()
         {
             InitializeComponent();
         }
 
-        private void btnEncrypt_Click(object sender, EventArgs e)
+        private void btnDecrypt_Click(object sender, EventArgs e)
         {
             if (!ValidateInputs())
             {
@@ -31,9 +32,10 @@ namespace Encryption_App.Forms
 
             string message = txtInput.Text;
             _key = txtKey.Text;
-            string encryptedMessage = Encrypt(message, _key);
+            GenerateKeySquare(_key);
+            string decryptedMessage = Decrypt(message);
 
-            lblResult.Text = encryptedMessage;
+            lblResult.Text = decryptedMessage;
             panelAnswer.Visible = true;
         }
 
@@ -60,7 +62,7 @@ namespace Encryption_App.Forms
             {
                 lblKeyError.Visible = false;
             }
-            if (Regex.IsMatch(txtKey.Text, @"\d"))
+            if(Regex.IsMatch(txtKey.Text, @"\d"))
             {
                 lblKeyError.Visible = true;
                 isValid = false;
@@ -113,7 +115,7 @@ namespace Encryption_App.Forms
             Environment.Exit(1);
         }
 
-        private char[,] GenerateKeySquare(string key)
+        private void GenerateKeySquare(string key)
         {
             key = key.ToUpper().Replace('J', 'I');
             string keyString = key + "ABCDEFGHIKLMNOPQRSTUVWXYZ";
@@ -124,7 +126,6 @@ namespace Encryption_App.Forms
                     sb.Append(c);
             }
 
-            char[,] keySquare = new char[5, 5];
             for (int i = 0; i < 5; i++)
             {
                 for (int j = 0; j < 5; j++)
@@ -132,11 +133,9 @@ namespace Encryption_App.Forms
                     keySquare[i, j] = sb[i * 5 + j];
                 }
             }
-
-            return keySquare;
         }
 
-        private (int, int) FindPosition(char[,] keySquare, char letter)
+        private (int, int) FindPosition(char letter)
         {
             for (int i = 0; i < 5; i++)
             {
@@ -149,32 +148,26 @@ namespace Encryption_App.Forms
             throw new ArgumentException("Letter not found in key square");
         }
 
-        private string Encrypt(string plaintext, string key)
+        private string Decrypt(string ciphertext)
         {
-            char[,] keySquare = GenerateKeySquare(key);
-            plaintext = plaintext.ToUpper().Replace('J', 'I').Replace(" ", "");
+            ciphertext = ciphertext.ToUpper().Replace(" ", "");
             StringBuilder sb = new StringBuilder();
 
-            for (int i = 0; i < plaintext.Length; i += 2)
+            for (int i = 0; i < ciphertext.Length; i += 2)
             {
-                if (i + 1 >= plaintext.Length || plaintext[i] == plaintext[i + 1])
-                {
-                    plaintext = plaintext.Insert(i + 1, "X");
-                }
-
-                (char first, char second) = (plaintext[i], plaintext[i + 1]);
-                (int r1, int c1) = FindPosition(keySquare, first);
-                (int r2, int c2) = FindPosition(keySquare, second);
+                (char first, char second) = (ciphertext[i], ciphertext[i + 1]);
+                (int r1, int c1) = FindPosition(first);
+                (int r2, int c2) = FindPosition(second);
 
                 if (r1 == r2)
                 {
-                    sb.Append(keySquare[r1, (c1 + 1) % 5]);
-                    sb.Append(keySquare[r2, (c2 + 1) % 5]);
+                    sb.Append(keySquare[r1, (c1 + 4) % 5]);
+                    sb.Append(keySquare[r2, (c2 + 4) % 5]);
                 }
                 else if (c1 == c2)
                 {
-                    sb.Append(keySquare[(r1 + 1) % 5, c1]);
-                    sb.Append(keySquare[(r2 + 1) % 5, c2]);
+                    sb.Append(keySquare[(r1 + 4) % 5, c1]);
+                    sb.Append(keySquare[(r2 + 4) % 5, c2]);
                 }
                 else
                 {

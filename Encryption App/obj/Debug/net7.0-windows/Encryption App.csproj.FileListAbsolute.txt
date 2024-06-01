@@ -1,27 +1,20 @@
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.AssemblyReference.cache
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.AESForm.resources
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption_App.MainMenu.resources
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm.resources
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.GenerateResource.cache
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfoInputs.cache
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfo.cs
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CoreCompileInputs.cache
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.exe
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.deps.json
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.runtimeconfig.json
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.dll
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Encryption App.pdb
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\Guna.UI2.dll
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\System.Management.dll
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.CopyComplete
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.dll
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\refint\Encryption App.dll
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.pdb
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption App.genruntimeconfig.cache
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\ref\Encryption App.dll
-C:\Users\MISS\Desktop\BSCS 2A\Cruz, Jansen\ALC01\Encryption\Encryption App\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.PlayFairForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.AssemblyReference.cache
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceDecryptionForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.ColumnarDecryptionForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.PlayFairDecryptForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.RailFenceDecryptForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.AESDecryptionForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.PlayFairForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm_Decrypt.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Info.RailFenceInfo.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.MainMenu.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Properties.Resources.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.GenerateResource.cache
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\blocks.png
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\puzzle.png
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\rubics.png
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.exe
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.deps.json
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Encryption App.runtimeconfig.json
@@ -30,12 +23,7 @@ D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\Guna.UI2.dll
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\System.Management.dll
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.AssemblyReference.cache
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.AESForm.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.MainMenu.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.PlayFairForm.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.csproj.GenerateResource.cache
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.RailFenceForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.GeneratedMSBuildEditorConfig.editorconfig
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfoInputs.cache
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.AssemblyInfo.cs
@@ -46,12 +34,3 @@ D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.pdb
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.genruntimeconfig.cache
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\ref\Encryption App.dll
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\puzzle.png
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Properties.Resources.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\blocks.png
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\bin\Debug\net7.0-windows\images\rubics.png
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceForm.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.RailFenceForm.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceDecryptionForm.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.RailFenceDecryptForm.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Info.RailFenceInfo.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Encryption_App.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,28 +9,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Encryption_App.Forms
+namespace Encryption_App.FormsDecrypt
 {
-    public partial class AESDecryptionForm : Form
+    public partial class ColumnarDecryptionForm : Form
     {
-        public AESDecryptionForm()
+        public ColumnarDecryptionForm()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ColumnarDecryptionForm_Load(object sender, EventArgs e)
         {
-            string message = textBox1.Text;
-            string key = textBox2.Text;
 
-            if (string.IsNullOrEmpty(message) || string.IsNullOrEmpty(key))
-            {
-                MessageBox.Show("Please enter both the message and the key.");
-                return;
-            }
+        }
 
-            string encryptedMessage = ColumnarTranspositionCipher.EncryptMessage(message, key);
-            richTextBox1.Text = encryptedMessage;
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = string.Empty;
+            textBox2.Text = string.Empty;
+            richTextBox1.Text = string.Empty;
         }
 
         public static class ColumnarTranspositionCipher
@@ -46,47 +44,6 @@ namespace Encryption_App.Forms
                 {
                     keyMap[sortedKey[i]] = i;
                 }
-            }
-
-            public static string EncryptMessage(string msg, string key)
-            {
-                SetPermutationOrder(key);
-
-                int col = key.Length;
-                int row = (int)Math.Ceiling((double)msg.Length / col);
-
-                char[,] matrix = new char[row, col];
-
-                for (int i = 0, k = 0; i < row; i++)
-                {
-                    for (int j = 0; j < col; j++)
-                    {
-                        if (k < msg.Length)
-                        {
-                            char ch = msg[k];
-                            matrix[i, j] = ch;
-                            k++;
-                        }
-                        else
-                        {
-                            matrix[i, j] = '_';
-                        }
-                    }
-                }
-
-                System.Text.StringBuilder cipher = new System.Text.StringBuilder();
-
-                foreach (var entry in keyMap.OrderBy(k => k.Value))
-                {
-                    int columnIndex = entry.Value;
-
-                    for (int i = 0; i < row; i++)
-                    {
-                        cipher.Append(matrix[i, columnIndex]);
-                    }
-                }
-
-                return cipher.ToString();
             }
 
             public static string DecryptMessage(string cipher, string key)
@@ -126,11 +83,19 @@ namespace Encryption_App.Forms
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            textBox1.Text = string.Empty;
-            textBox2.Text = string.Empty;
-            richTextBox1.Text = string.Empty;
+            string cipherText = textBox1.Text;
+            string key = textBox2.Text;
+
+            if (string.IsNullOrEmpty(cipherText) || string.IsNullOrEmpty(key))
+            {
+                MessageBox.Show("Please enter both the ciphertext and the key.");
+                return;
+            }
+
+            string decryptedMessage = ColumnarTranspositionCipher.DecryptMessage(cipherText, key);
+            richTextBox1.Text = decryptedMessage;
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -142,4 +107,3 @@ namespace Encryption_App.Forms
         }
     }
 }
-

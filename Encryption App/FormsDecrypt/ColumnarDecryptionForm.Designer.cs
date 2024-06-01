@@ -1,6 +1,6 @@
-﻿namespace Encryption_App.Forms
+﻿namespace Encryption_App.FormsDecrypt
 {
-    partial class AESDecryptionForm
+    partial class ColumnarDecryptionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AESDecryptionForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColumnarDecryptionForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            label4 = new Label();
+            btnBack = new Guna.UI2.WinForms.Guna2Button();
             label3 = new Label();
             richTextBox1 = new RichTextBox();
             button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -47,9 +49,40 @@
             label2 = new Label();
             textBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             textBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            btnBack = new Guna.UI2.WinForms.Guna2Button();
-            label4 = new Label();
             SuspendLayout();
+            // 
+            // label4
+            // 
+            label4.Font = new Font("Playground", 45F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.FromArgb(254, 102, 3);
+            label4.Location = new Point(50, 64);
+            label4.Name = "label4";
+            label4.Size = new Size(479, 130);
+            label4.TabIndex = 31;
+            label4.Text = "COLUMNAR TRANSPOSITION";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // btnBack
+            // 
+            btnBack.BorderColor = Color.FromArgb(157, 74, 67);
+            btnBack.BorderRadius = 10;
+            btnBack.BorderThickness = 2;
+            btnBack.CustomizableEdges = customizableEdges1;
+            btnBack.DisabledState.BorderColor = Color.DarkGray;
+            btnBack.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnBack.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnBack.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnBack.FillColor = Color.FromArgb(254, 102, 3);
+            btnBack.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btnBack.ForeColor = Color.White;
+            btnBack.Image = (Image)resources.GetObject("btnBack.Image");
+            btnBack.ImageSize = new Size(25, 25);
+            btnBack.Location = new Point(12, 12);
+            btnBack.Name = "btnBack";
+            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnBack.Size = new Size(56, 49);
+            btnBack.TabIndex = 30;
+            btnBack.Click += btnBack_Click;
             // 
             // label3
             // 
@@ -57,7 +90,7 @@
             label3.Location = new Point(84, 448);
             label3.Name = "label3";
             label3.Size = new Size(81, 28);
-            label3.TabIndex = 13;
+            label3.TabIndex = 29;
             label3.Text = "Result:";
             label3.TextAlign = ContentAlignment.TopCenter;
             // 
@@ -69,7 +102,7 @@
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(412, 119);
-            richTextBox1.TabIndex = 12;
+            richTextBox1.TabIndex = 28;
             richTextBox1.Text = "";
             // 
             // button3
@@ -77,7 +110,7 @@
             button3.BorderColor = Color.FromArgb(157, 74, 67);
             button3.BorderRadius = 10;
             button3.BorderThickness = 2;
-            button3.CustomizableEdges = customizableEdges11;
+            button3.CustomizableEdges = customizableEdges3;
             button3.DisabledState.BorderColor = Color.DarkGray;
             button3.DisabledState.CustomBorderColor = Color.DarkGray;
             button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -87,9 +120,9 @@
             button3.ForeColor = Color.White;
             button3.Location = new Point(293, 365);
             button3.Name = "button3";
-            button3.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            button3.ShadowDecoration.CustomizableEdges = customizableEdges4;
             button3.Size = new Size(203, 49);
-            button3.TabIndex = 11;
+            button3.TabIndex = 27;
             button3.Text = "Clear";
             button3.Click += button3_Click;
             // 
@@ -98,7 +131,7 @@
             button1.BorderColor = Color.FromArgb(157, 74, 67);
             button1.BorderRadius = 10;
             button1.BorderThickness = 2;
-            button1.CustomizableEdges = customizableEdges13;
+            button1.CustomizableEdges = customizableEdges5;
             button1.DisabledState.BorderColor = Color.DarkGray;
             button1.DisabledState.CustomBorderColor = Color.DarkGray;
             button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -108,11 +141,11 @@
             button1.ForeColor = Color.White;
             button1.Location = new Point(84, 365);
             button1.Name = "button1";
-            button1.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             button1.Size = new Size(203, 49);
-            button1.TabIndex = 9;
-            button1.Text = "Encrypt";
-            button1.Click += button1_Click;
+            button1.TabIndex = 26;
+            button1.Text = "Decrypt";
+            button1.Click += button1_Click_1;
             // 
             // label1
             // 
@@ -120,7 +153,7 @@
             label1.Location = new Point(84, 283);
             label1.Name = "label1";
             label1.Size = new Size(56, 28);
-            label1.TabIndex = 7;
+            label1.TabIndex = 25;
             label1.Text = "Key:";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
@@ -130,13 +163,13 @@
             label2.Location = new Point(84, 204);
             label2.Name = "label2";
             label2.Size = new Size(105, 28);
-            label2.TabIndex = 6;
+            label2.TabIndex = 24;
             label2.Text = "Message:";
             label2.TextAlign = ContentAlignment.TopCenter;
             // 
             // textBox2
             // 
-            textBox2.CustomizableEdges = customizableEdges15;
+            textBox2.CustomizableEdges = customizableEdges7;
             textBox2.DefaultText = "";
             textBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             textBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -151,13 +184,13 @@
             textBox2.PasswordChar = '\0';
             textBox2.PlaceholderText = "";
             textBox2.SelectedText = "";
-            textBox2.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            textBox2.ShadowDecoration.CustomizableEdges = customizableEdges8;
             textBox2.Size = new Size(412, 43);
-            textBox2.TabIndex = 1;
+            textBox2.TabIndex = 23;
             // 
             // textBox1
             // 
-            textBox1.CustomizableEdges = customizableEdges17;
+            textBox1.CustomizableEdges = customizableEdges9;
             textBox1.DefaultText = "";
             textBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             textBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -172,44 +205,11 @@
             textBox1.PasswordChar = '\0';
             textBox1.PlaceholderText = "";
             textBox1.SelectedText = "";
-            textBox1.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            textBox1.ShadowDecoration.CustomizableEdges = customizableEdges10;
             textBox1.Size = new Size(412, 43);
-            textBox1.TabIndex = 0;
+            textBox1.TabIndex = 22;
             // 
-            // btnBack
-            // 
-            btnBack.BorderColor = Color.FromArgb(157, 74, 67);
-            btnBack.BorderRadius = 10;
-            btnBack.BorderThickness = 2;
-            btnBack.CustomizableEdges = customizableEdges19;
-            btnBack.DisabledState.BorderColor = Color.DarkGray;
-            btnBack.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnBack.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnBack.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnBack.FillColor = Color.FromArgb(254, 102, 3);
-            btnBack.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            btnBack.ForeColor = Color.White;
-            btnBack.Image = (Image)resources.GetObject("btnBack.Image");
-            btnBack.ImageSize = new Size(25, 25);
-            btnBack.Location = new Point(12, 12);
-            btnBack.Name = "btnBack";
-            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            btnBack.Size = new Size(56, 49);
-            btnBack.TabIndex = 20;
-            btnBack.Click += btnBack_Click;
-            // 
-            // label4
-            // 
-            label4.Font = new Font("Playground", 45F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.FromArgb(254, 102, 3);
-            label4.Location = new Point(50, 64);
-            label4.Name = "label4";
-            label4.Size = new Size(479, 130);
-            label4.TabIndex = 21;
-            label4.Text = "COLUMNAR TRANSPOSITION";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // AESDecryptionForm
+            // ColumnarDecryptionForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -225,14 +225,17 @@
             Controls.Add(label2);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Name = "AESDecryptionForm";
+            Name = "ColumnarDecryptionForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Columnar Transposition";
+            Text = "ColumnarDecryptionForm";
+            Load += ColumnarDecryptionForm_Load;
             ResumeLayout(false);
         }
 
         #endregion
 
+        private Label label4;
+        private Guna.UI2.WinForms.Guna2Button btnBack;
         private Label label3;
         private RichTextBox richTextBox1;
         private Guna.UI2.WinForms.Guna2Button button3;
@@ -241,7 +244,5 @@
         private Label label2;
         private Guna.UI2.WinForms.Guna2TextBox textBox2;
         private Guna.UI2.WinForms.Guna2TextBox textBox1;
-        private Guna.UI2.WinForms.Guna2Button btnBack;
-        private Label label4;
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace Encryption_App.Forms
+﻿namespace Encryption_App.FormsDecrypt
 {
-    partial class PlayFairForm
+    partial class PlayFairDecryptForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlayFairForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlayFairDecryptForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             lblNotif = new Label();
             lblKeyError = new Label();
             lblMessageError = new Label();
@@ -64,7 +64,7 @@
             label4 = new Label();
             btnCopy = new Guna.UI2.WinForms.Guna2Button();
             lblResult = new Label();
-            btnEncrypt = new Guna.UI2.WinForms.Guna2Button();
+            btnDecrypt = new Guna.UI2.WinForms.Guna2Button();
             label2 = new Label();
             label1 = new Label();
             txtInput = new Guna.UI2.WinForms.Guna2TextBox();
@@ -84,7 +84,7 @@
             lblNotif.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblNotif.ForeColor = Color.FromArgb(64, 64, 64);
             lblNotif.ImageAlign = ContentAlignment.TopRight;
-            lblNotif.Location = new Point(298, 624);
+            lblNotif.Location = new Point(297, 623);
             lblNotif.Name = "lblNotif";
             lblNotif.Size = new Size(221, 21);
             lblNotif.TabIndex = 42;
@@ -97,9 +97,9 @@
             lblKeyError.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblKeyError.ForeColor = Color.Red;
             lblKeyError.ImageAlign = ContentAlignment.TopRight;
-            lblKeyError.Location = new Point(246, 361);
+            lblKeyError.Location = new Point(209, 360);
             lblKeyError.Name = "lblKeyError";
-            lblKeyError.Size = new Size(273, 21);
+            lblKeyError.Size = new Size(309, 21);
             lblKeyError.TabIndex = 41;
             lblKeyError.Text = "Key is invalid, must not contain numbers";
             lblKeyError.TextAlign = ContentAlignment.TopRight;
@@ -110,18 +110,18 @@
             lblMessageError.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblMessageError.ForeColor = Color.Red;
             lblMessageError.ImageAlign = ContentAlignment.TopRight;
-            lblMessageError.Location = new Point(202, 256);
+            lblMessageError.Location = new Point(143, 255);
             lblMessageError.Name = "lblMessageError";
-            lblMessageError.Size = new Size(317, 21);
+            lblMessageError.Size = new Size(375, 21);
             lblMessageError.TabIndex = 40;
-            lblMessageError.Text = "Message is invalid, must not contain numbers";
+            lblMessageError.Text = "Encrypted message is invalid, must not contain numbers";
             lblMessageError.TextAlign = ContentAlignment.TopRight;
             lblMessageError.Visible = false;
             // 
             // label3
             // 
             label3.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(144, 270);
+            label3.Location = new Point(143, 269);
             label3.Name = "label3";
             label3.Size = new Size(320, 28);
             label3.TabIndex = 39;
@@ -132,7 +132,7 @@
             // 
             txtKey.BorderRadius = 10;
             txtKey.BorderThickness = 0;
-            txtKey.CustomizableEdges = customizableEdges23;
+            txtKey.CustomizableEdges = customizableEdges1;
             txtKey.DefaultText = "";
             txtKey.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtKey.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -141,13 +141,13 @@
             txtKey.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtKey.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtKey.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtKey.Location = new Point(144, 307);
+            txtKey.Location = new Point(143, 306);
             txtKey.Margin = new Padding(5);
             txtKey.Name = "txtKey";
             txtKey.PasswordChar = '\0';
             txtKey.PlaceholderText = "";
             txtKey.SelectedText = "";
-            txtKey.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            txtKey.ShadowDecoration.CustomizableEdges = customizableEdges2;
             txtKey.Size = new Size(375, 51);
             txtKey.TabIndex = 38;
             // 
@@ -156,7 +156,7 @@
             btnBack.BorderColor = Color.FromArgb(157, 74, 67);
             btnBack.BorderRadius = 10;
             btnBack.BorderThickness = 2;
-            btnBack.CustomizableEdges = customizableEdges25;
+            btnBack.CustomizableEdges = customizableEdges3;
             btnBack.DisabledState.BorderColor = Color.DarkGray;
             btnBack.DisabledState.CustomBorderColor = Color.DarkGray;
             btnBack.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -166,9 +166,9 @@
             btnBack.ForeColor = Color.White;
             btnBack.Image = (Image)resources.GetObject("btnBack.Image");
             btnBack.ImageSize = new Size(25, 25);
-            btnBack.Location = new Point(75, 13);
+            btnBack.Location = new Point(74, 12);
             btnBack.Name = "btnBack";
-            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnBack.Size = new Size(56, 49);
             btnBack.TabIndex = 37;
             btnBack.Click += btnBack_Click;
@@ -178,7 +178,7 @@
             btnHome.BorderColor = Color.FromArgb(157, 74, 67);
             btnHome.BorderRadius = 10;
             btnHome.BorderThickness = 2;
-            btnHome.CustomizableEdges = customizableEdges27;
+            btnHome.CustomizableEdges = customizableEdges5;
             btnHome.DisabledState.BorderColor = Color.DarkGray;
             btnHome.DisabledState.CustomBorderColor = Color.DarkGray;
             btnHome.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -187,9 +187,9 @@
             btnHome.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             btnHome.ForeColor = Color.White;
             btnHome.Image = (Image)resources.GetObject("btnHome.Image");
-            btnHome.Location = new Point(13, 13);
+            btnHome.Location = new Point(12, 12);
             btnHome.Name = "btnHome";
-            btnHome.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            btnHome.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnHome.Size = new Size(56, 49);
             btnHome.TabIndex = 36;
             btnHome.Click += btnHome_Click;
@@ -199,7 +199,7 @@
             btnRetry.BorderColor = Color.FromArgb(157, 74, 67);
             btnRetry.BorderRadius = 10;
             btnRetry.BorderThickness = 2;
-            btnRetry.CustomizableEdges = customizableEdges29;
+            btnRetry.CustomizableEdges = customizableEdges7;
             btnRetry.DisabledState.BorderColor = Color.DarkGray;
             btnRetry.DisabledState.CustomBorderColor = Color.DarkGray;
             btnRetry.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -208,9 +208,9 @@
             btnRetry.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             btnRetry.ForeColor = Color.White;
             btnRetry.Image = (Image)resources.GetObject("btnRetry.Image");
-            btnRetry.Location = new Point(532, 13);
+            btnRetry.Location = new Point(531, 12);
             btnRetry.Name = "btnRetry";
-            btnRetry.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            btnRetry.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnRetry.Size = new Size(56, 49);
             btnRetry.TabIndex = 35;
             btnRetry.Click += btnRetry_Click;
@@ -220,7 +220,7 @@
             btnExit.BorderColor = Color.FromArgb(157, 74, 67);
             btnExit.BorderRadius = 10;
             btnExit.BorderThickness = 2;
-            btnExit.CustomizableEdges = customizableEdges31;
+            btnExit.CustomizableEdges = customizableEdges9;
             btnExit.DisabledState.BorderColor = Color.DarkGray;
             btnExit.DisabledState.CustomBorderColor = Color.DarkGray;
             btnExit.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -229,9 +229,9 @@
             btnExit.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             btnExit.ForeColor = Color.White;
             btnExit.Image = (Image)resources.GetObject("btnExit.Image");
-            btnExit.Location = new Point(594, 13);
+            btnExit.Location = new Point(593, 12);
             btnExit.Name = "btnExit";
-            btnExit.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            btnExit.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnExit.Size = new Size(56, 49);
             btnExit.TabIndex = 34;
             btnExit.Click += btnExit_Click;
@@ -242,11 +242,11 @@
             panelAnswer.Controls.Add(label4);
             panelAnswer.Controls.Add(btnCopy);
             panelAnswer.Controls.Add(lblResult);
-            panelAnswer.CustomizableEdges = customizableEdges35;
+            panelAnswer.CustomizableEdges = customizableEdges13;
             panelAnswer.FillColor = Color.White;
-            panelAnswer.Location = new Point(144, 458);
+            panelAnswer.Location = new Point(143, 457);
             panelAnswer.Name = "panelAnswer";
-            panelAnswer.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            panelAnswer.ShadowDecoration.CustomizableEdges = customizableEdges14;
             panelAnswer.Size = new Size(375, 163);
             panelAnswer.TabIndex = 33;
             panelAnswer.Visible = false;
@@ -268,7 +268,7 @@
             btnCopy.BorderColor = Color.FromArgb(157, 74, 67);
             btnCopy.BorderRadius = 10;
             btnCopy.BorderThickness = 2;
-            btnCopy.CustomizableEdges = customizableEdges33;
+            btnCopy.CustomizableEdges = customizableEdges11;
             btnCopy.DisabledState.BorderColor = Color.DarkGray;
             btnCopy.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCopy.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -278,7 +278,7 @@
             btnCopy.ForeColor = Color.White;
             btnCopy.Location = new Point(296, 9);
             btnCopy.Name = "btnCopy";
-            btnCopy.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            btnCopy.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnCopy.Size = new Size(71, 32);
             btnCopy.TabIndex = 22;
             btnCopy.Text = "Copy";
@@ -294,53 +294,53 @@
             lblResult.TabIndex = 0;
             lblResult.Text = "label3";
             // 
-            // btnEncrypt
+            // btnDecrypt
             // 
-            btnEncrypt.BorderColor = Color.FromArgb(157, 74, 67);
-            btnEncrypt.BorderRadius = 10;
-            btnEncrypt.BorderThickness = 2;
-            btnEncrypt.CustomizableEdges = customizableEdges37;
-            btnEncrypt.DisabledState.BorderColor = Color.DarkGray;
-            btnEncrypt.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnEncrypt.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnEncrypt.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnEncrypt.FillColor = Color.FromArgb(254, 102, 3);
-            btnEncrypt.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            btnEncrypt.ForeColor = Color.White;
-            btnEncrypt.Location = new Point(233, 385);
-            btnEncrypt.Name = "btnEncrypt";
-            btnEncrypt.ShadowDecoration.CustomizableEdges = customizableEdges38;
-            btnEncrypt.Size = new Size(203, 49);
-            btnEncrypt.TabIndex = 32;
-            btnEncrypt.Text = "Encrypt!";
-            btnEncrypt.Click += btnEncrypt_Click;
+            btnDecrypt.BorderColor = Color.FromArgb(157, 74, 67);
+            btnDecrypt.BorderRadius = 10;
+            btnDecrypt.BorderThickness = 2;
+            btnDecrypt.CustomizableEdges = customizableEdges15;
+            btnDecrypt.DisabledState.BorderColor = Color.DarkGray;
+            btnDecrypt.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnDecrypt.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnDecrypt.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnDecrypt.FillColor = Color.FromArgb(254, 102, 3);
+            btnDecrypt.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btnDecrypt.ForeColor = Color.White;
+            btnDecrypt.Location = new Point(232, 384);
+            btnDecrypt.Name = "btnDecrypt";
+            btnDecrypt.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnDecrypt.Size = new Size(203, 49);
+            btnDecrypt.TabIndex = 32;
+            btnDecrypt.Text = "Decrypt!";
+            btnDecrypt.Click += btnDecrypt_Click;
             // 
             // label2
             // 
             label2.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(144, 163);
+            label2.Location = new Point(143, 162);
             label2.Name = "label2";
-            label2.Size = new Size(221, 28);
+            label2.Size = new Size(330, 28);
             label2.TabIndex = 31;
-            label2.Text = "Enter your message";
+            label2.Text = "Enter your encrypted message";
             label2.TextAlign = ContentAlignment.BottomLeft;
             // 
             // label1
             // 
             label1.Font = new Font("Playground", 45F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(254, 102, 3);
-            label1.Location = new Point(1, 88);
+            label1.Location = new Point(0, 87);
             label1.Name = "label1";
             label1.Size = new Size(663, 68);
             label1.TabIndex = 30;
-            label1.Text = "PLAY FAIR CIPHER";
+            label1.Text = "PLAY FAIR DECIPHER";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // txtInput
             // 
             txtInput.BorderRadius = 10;
             txtInput.BorderThickness = 0;
-            txtInput.CustomizableEdges = customizableEdges39;
+            txtInput.CustomizableEdges = customizableEdges17;
             txtInput.DefaultText = "";
             txtInput.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtInput.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -349,24 +349,24 @@
             txtInput.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtInput.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtInput.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtInput.Location = new Point(144, 200);
+            txtInput.Location = new Point(143, 199);
             txtInput.Margin = new Padding(5);
             txtInput.Name = "txtInput";
             txtInput.PasswordChar = '\0';
             txtInput.PlaceholderText = "";
             txtInput.SelectedText = "";
-            txtInput.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            txtInput.ShadowDecoration.CustomizableEdges = customizableEdges18;
             txtInput.Size = new Size(375, 51);
             txtInput.TabIndex = 29;
             // 
             // guna2PictureBox1
             // 
-            guna2PictureBox1.CustomizableEdges = customizableEdges41;
+            guna2PictureBox1.CustomizableEdges = customizableEdges19;
             guna2PictureBox1.Image = (Image)resources.GetObject("guna2PictureBox1.Image");
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new Point(1, 446);
+            guna2PictureBox1.Location = new Point(0, 445);
             guna2PictureBox1.Name = "guna2PictureBox1";
-            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2PictureBox1.Size = new Size(201, 245);
             guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox1.TabIndex = 43;
@@ -374,12 +374,12 @@
             // 
             // guna2PictureBox2
             // 
-            guna2PictureBox2.CustomizableEdges = customizableEdges43;
+            guna2PictureBox2.CustomizableEdges = customizableEdges21;
             guna2PictureBox2.Image = (Image)resources.GetObject("guna2PictureBox2.Image");
             guna2PictureBox2.ImageRotate = 0F;
-            guna2PictureBox2.Location = new Point(463, 434);
+            guna2PictureBox2.Location = new Point(462, 433);
             guna2PictureBox2.Name = "guna2PictureBox2";
-            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2PictureBox2.Size = new Size(201, 245);
             guna2PictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox2.TabIndex = 44;
@@ -388,7 +388,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(270, -250);
+            pictureBox1.Location = new Point(269, -251);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(441, 382);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -398,14 +398,14 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(-222, -55);
+            pictureBox2.Location = new Point(-223, -56);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(441, 382);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 46;
             pictureBox2.TabStop = false;
             // 
-            // PlayFairForm
+            // PlayFairDecryptForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -421,7 +421,7 @@
             Controls.Add(btnRetry);
             Controls.Add(btnExit);
             Controls.Add(panelAnswer);
-            Controls.Add(btnEncrypt);
+            Controls.Add(btnDecrypt);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txtInput);
@@ -429,9 +429,9 @@
             Controls.Add(guna2PictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
-            Name = "PlayFairForm";
+            Name = "PlayFairDecryptForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "PlayFairForm";
+            Text = "PlayFairDecryptForm";
             panelAnswer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
@@ -455,7 +455,7 @@
         private Label label4;
         private Guna.UI2.WinForms.Guna2Button btnCopy;
         private Label lblResult;
-        private Guna.UI2.WinForms.Guna2Button btnEncrypt;
+        private Guna.UI2.WinForms.Guna2Button btnDecrypt;
         private Label label2;
         private Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txtInput;

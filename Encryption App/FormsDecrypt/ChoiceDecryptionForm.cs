@@ -20,7 +20,10 @@ namespace Encryption_App.Forms
 
         private void btnAES_Click(object sender, EventArgs e)
         {
-
+            Hide();
+            var form = new ColumnarDecryptionForm();
+            form.FormClosed += (s, args) => Close();
+            form.Show();
         }
 
         private void btnXOR_Click(object sender, EventArgs e)
@@ -30,7 +33,10 @@ namespace Encryption_App.Forms
 
         private void btnPlayfair_Click(object sender, EventArgs e)
         {
-
+            Hide();
+            var form = new PlayFairDecryptForm();
+            form.FormClosed += (s, args) => Close();
+            form.Show();
         }
 
         private void btnRailFence_Click(object sender, EventArgs e)
