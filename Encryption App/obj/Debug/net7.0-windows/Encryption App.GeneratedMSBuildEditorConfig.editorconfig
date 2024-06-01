@@ -14,6 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Encryption_App
-build_property.ProjectDir = C:\Users\OASIS\Documents\GitHub\alc01-final-project\Encryption App\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\ALC\alc01-final-project\Encryption App\

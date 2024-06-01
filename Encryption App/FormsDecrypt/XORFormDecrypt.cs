@@ -11,63 +11,56 @@ using System.Windows.Forms;
 
 namespace Encryption_App.Forms
 {
-    public partial class XORForm : Form
+    public partial class XORFormDecrypt : Form
     {
-        public XORForm()
+        public XORFormDecrypt()
         {
             InitializeComponent();
         }
-        private void button_Encrypt_Click(object sender, EventArgs e)
+
+        private void button_Decrypt_Click(object sender, EventArgs e)
         {
-            if (!ValidateInputs())
-            {
-                return;
-            }
-
-            HideErrors();
-
-
-            //inputs
-            string text = txtInput.Text;
+            //  input reader lang   
+            string encryptedText = txtInput.Text.Trim(); //input nag reremove ng excess white space sa dulo
             string key = txtKey.Text;
 
-            // Encrypt the text
-            string encryptedText = Encrypt(text, key);
+            // Decrypt the encrypted text
+            string decryptedText = Decrypt(encryptedText, key);
 
-            // Display encrypted text
-            lblResult.Text = encryptedText;
+            // Display decrypted text
+            lblResult.Text = "Decrypted Word: " + decryptedText;
 
             panelAnswer.Visible = true;
         }
 
-        private string Encrypt(string word, string key)
+        private string Decrypt(string encryptedWord, string key)
         {
-            StringBuilder encryptedWord = new StringBuilder();   //combine each string into one, para di nag mag interate each one, builder ng .NET na bahala 
+            StringBuilder decryptedWord = new StringBuilder(); //combine each string into one, para di nag mag interate each one, builder ng .NET na bahala 
 
+            string[] encryptedLetters = encryptedWord.Split(' ');  // Split nya yung each binary string and lagay nya sa array, dito string pa sya kaya di ma xor
 
-            for (int i = 0; i < word.Length; i++) //iterate to all the letters
+            for (int i = 0; i < encryptedLetters.Length; i++) //iterate to all the letters
             {
-                int wordAscii = (int)word[i]; //convert the i[] index of the word into binary into int
+                int encryptedAscii = Convert.ToInt32(encryptedLetters[i], 2); //convert yung letter na encrypted na string sa base 2 binary int para ma read ng XOR, base 2 kasi yun yung ascii
+                int keyAscii = (int)key[i % key.Length]; // Ensure key is repeated if shorter than word based on the same index
 
-                int keyAscii = (int)key[i % key.Length]; // Ensure key is repeated if shorter than word based on the same index kaya may module key length
-                //also coconvert nya yung key na letter sa binary basehan din sa i[] index nung key pero gawin int na non siya after
+                int decryptedAscii = encryptedAscii ^ keyAscii; //XOR Operation
 
-                int xorResult = wordAscii ^ keyAscii; //XOR
-
-
-                string binaryResult = Convert.ToString(xorResult, 2).PadLeft(8,'0'); //gagawin nyang string yung binary 2 bit binary na tig 8bits, yung padding pag dagdag lang ng zero para 8bits siya
-                encryptedWord.Append(binaryResult + " "); //taga append lang ng space
+                char decryptedChar = (char)decryptedAscii; //gawin nyang char yung binary
+                decryptedWord.Append(decryptedChar); //pag sasama nya
             }
-            return encryptedWord.ToString().Trim();
+            return decryptedWord.ToString(); 
         }
-
 
         private bool ValidateInputs()
         {
             var isValid = true;
-            var message = txtInput.Text;
-            if (string.IsNullOrWhiteSpace(message) || Regex.IsMatch(txtInput.Text, @"\d"))
+
+            // Validate nya yung txtInput: must be 8-bit binary sequences separated ng spaces
+            string inputPattern = @"^([01]{8})(\s[01]{8})*$";
+            if (string.IsNullOrWhiteSpace(txtInput.Text) || !Regex.IsMatch(txtInput.Text.Trim(), inputPattern))
             {
+                lblMessageError.Text = "Invalid input format. Must be 8-bit binary sequences separated by spaces.";
                 lblMessageError.Visible = true;
                 isValid = false;
             }
@@ -76,19 +69,16 @@ namespace Encryption_App.Forms
                 lblMessageError.Visible = false;
             }
 
-            if (string.IsNullOrWhiteSpace(txtKey.Text))
+            // Validate nya yung txtKey: must not contain any digits
+            if (string.IsNullOrWhiteSpace(txtKey.Text) || Regex.IsMatch(txtKey.Text, @"\d"))
             {
+                lblKeyError.Text = "Key must not contain any digits.";
                 lblKeyError.Visible = true;
                 isValid = false;
             }
             else
             {
                 lblKeyError.Visible = false;
-            }
-            if (Regex.IsMatch(txtKey.Text, @"\d"))
-            {
-                lblKeyError.Visible = true;
-                isValid = false;
             }
 
             return isValid;

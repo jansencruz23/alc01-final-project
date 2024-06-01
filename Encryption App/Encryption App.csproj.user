@@ -19,7 +19,7 @@
     <Compile Update="FormsEncrypt\ChoiceForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormsEncrypt\XORForm_Decrypt.cs">
+    <Compile Update="FormsDecrypt\XORFormDecrypt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MainMenu.cs">

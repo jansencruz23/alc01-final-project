@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DoZasUsyCsM=",
+  "dgSpecHash": "EAKNJHte+O6mft5tT66v7OkrovTaPZnkbqkqieJ939NFA4GtAOpZ2MXVsPWHDR+FMEWL4FiT9fTRS67wJOkVDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OASIS\\Documents\\GitHub\\alc01-final-project\\Encryption App\\Encryption App.csproj",
+  "projectFilePath": "D:\\ALC\\alc01-final-project\\Encryption App\\Encryption App.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\OASIS\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
-    "C:\\Users\\OASIS\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
-    "C:\\Users\\OASIS\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+    "C:\\Users\\alfon\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\alfon\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\alfon\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
