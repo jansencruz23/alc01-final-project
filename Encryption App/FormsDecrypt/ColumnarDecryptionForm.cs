@@ -1,4 +1,5 @@
 ﻿using Encryption_App.Forms;
+using Encryption_App.Info;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -104,6 +105,25 @@ namespace Encryption_App.FormsDecrypt
             var form = new ChoiceForm();
             form.FormClosed += (s, args) => Close();
             form.Show();
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            Hide();
+            var form = new MainMenu();
+            form.FormClosed += (s, args) => Close();
+            form.Show();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            var form = new ColumnerInfo();
+            form.ShowDialog();
         }
     }
 }

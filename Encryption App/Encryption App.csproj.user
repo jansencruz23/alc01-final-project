@@ -14,6 +14,9 @@
     <Compile Update="FormsDecrypt\RailFenceDecryptForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormsDecrypt\XORFormDecrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormsEncrypt\AESForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -29,10 +32,16 @@
     <Compile Update="FormsEncrypt\XORForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormsEncrypt\XORForm_Decrypt.cs">
+    <Compile Update="Info\ColumnerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Info\PlayFairInfo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Info\RailFenceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Info\XORInfo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MainMenu.cs">

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="FormsDecrypt\ChoiceDecryptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDecrypt\ColumnarDecryptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDecrypt\PlayFairDecryptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDecrypt\RailFenceDecryptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsEncrypt\AESForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsEncrypt\ChoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Update="FormsDecrypt\XORFormDecrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> 11239c077f1b68bbe79e7b379aecdadb54e6556d
+    <Compile Update="FormsEncrypt\PlayFairForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsEncrypt\RailFenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsEncrypt\XORForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsEncrypt\XORForm_Decrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Info\RailFenceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="FormsEncrypt\RailFenceForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

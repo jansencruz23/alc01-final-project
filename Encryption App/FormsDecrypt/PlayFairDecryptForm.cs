@@ -1,4 +1,5 @@
 ﻿using Encryption_App.Forms;
+using Encryption_App.Info;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -177,6 +178,12 @@ namespace Encryption_App.FormsDecrypt
             }
 
             return sb.ToString();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            var form = new PlayFairInfo();
+            form.ShowDialog();
         }
     }
 }

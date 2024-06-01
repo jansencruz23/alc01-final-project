@@ -28,6 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AESDecryptionForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -37,198 +48,314 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AESDecryptionForm));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            label3 = new Label();
-            richTextBox1 = new RichTextBox();
-            button3 = new Guna.UI2.WinForms.Guna2Button();
-            button1 = new Guna.UI2.WinForms.Guna2Button();
-            label1 = new Label();
-            label2 = new Label();
-            textBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            textBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            btnBack = new Guna.UI2.WinForms.Guna2Button();
-            label4 = new Label();
-            SuspendLayout();
+            this.label3 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.textBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnBack = new Guna.UI2.WinForms.Guna2Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnCopy = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRetry = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.SuspendLayout();
             // 
             // label3
             // 
-            label3.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(84, 448);
-            label3.Name = "label3";
-            label3.Size = new Size(81, 28);
-            label3.TabIndex = 13;
-            label3.Text = "Result:";
-            label3.TextAlign = ContentAlignment.TopCenter;
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(84, 448);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 28);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Result:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // richTextBox1
             // 
-            richTextBox1.BorderStyle = BorderStyle.FixedSingle;
-            richTextBox1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            richTextBox1.Location = new Point(84, 479);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
-            richTextBox1.Size = new Size(412, 119);
-            richTextBox1.TabIndex = 12;
-            richTextBox1.Text = "";
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox1.Location = new System.Drawing.Point(84, 479);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(412, 119);
+            this.richTextBox1.TabIndex = 12;
+            this.richTextBox1.Text = "";
             // 
             // button3
             // 
-            button3.BorderColor = Color.FromArgb(157, 74, 67);
-            button3.BorderRadius = 10;
-            button3.BorderThickness = 2;
-            button3.CustomizableEdges = customizableEdges11;
-            button3.DisabledState.BorderColor = Color.DarkGray;
-            button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            button3.FillColor = Color.FromArgb(254, 102, 3);
-            button3.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.ForeColor = Color.White;
-            button3.Location = new Point(293, 365);
-            button3.Name = "button3";
-            button3.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            button3.Size = new Size(203, 49);
-            button3.TabIndex = 11;
-            button3.Text = "Clear";
-            button3.Click += button3_Click;
+            this.button3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.button3.BorderRadius = 10;
+            this.button3.BorderThickness = 2;
+            this.button3.CustomizableEdges = customizableEdges1;
+            this.button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(293, 365);
+            this.button3.Name = "button3";
+            this.button3.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.button3.Size = new System.Drawing.Size(203, 49);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Clear";
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
-            button1.BorderColor = Color.FromArgb(157, 74, 67);
-            button1.BorderRadius = 10;
-            button1.BorderThickness = 2;
-            button1.CustomizableEdges = customizableEdges13;
-            button1.DisabledState.BorderColor = Color.DarkGray;
-            button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            button1.FillColor = Color.FromArgb(254, 102, 3);
-            button1.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(84, 365);
-            button1.Name = "button1";
-            button1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            button1.Size = new Size(203, 49);
-            button1.TabIndex = 9;
-            button1.Text = "Encrypt";
-            button1.Click += button1_Click;
+            this.button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.button1.BorderRadius = 10;
+            this.button1.BorderThickness = 2;
+            this.button1.CustomizableEdges = customizableEdges3;
+            this.button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(84, 365);
+            this.button1.Name = "button1";
+            this.button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            this.button1.Size = new System.Drawing.Size(203, 49);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Encrypt";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
-            label1.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(84, 283);
-            label1.Name = "label1";
-            label1.Size = new Size(56, 28);
-            label1.TabIndex = 7;
-            label1.Text = "Key:";
-            label1.TextAlign = ContentAlignment.TopCenter;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(84, 283);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 28);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Key:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label2
             // 
-            label2.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(84, 204);
-            label2.Name = "label2";
-            label2.Size = new Size(105, 28);
-            label2.TabIndex = 6;
-            label2.Text = "Message:";
-            label2.TextAlign = ContentAlignment.TopCenter;
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(84, 204);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 28);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Message:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // textBox2
             // 
-            textBox2.CustomizableEdges = customizableEdges15;
-            textBox2.DefaultText = "";
-            textBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            textBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            textBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            textBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            textBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            textBox2.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            textBox2.Location = new Point(84, 315);
-            textBox2.Margin = new Padding(4);
-            textBox2.Name = "textBox2";
-            textBox2.PasswordChar = '\0';
-            textBox2.PlaceholderText = "";
-            textBox2.SelectedText = "";
-            textBox2.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            textBox2.Size = new Size(412, 43);
-            textBox2.TabIndex = 1;
+            this.textBox2.CustomizableEdges = customizableEdges5;
+            this.textBox2.DefaultText = "";
+            this.textBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.textBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.textBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBox2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBox2.Location = new System.Drawing.Point(84, 315);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '\0';
+            this.textBox2.PlaceholderText = "";
+            this.textBox2.SelectedText = "";
+            this.textBox2.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            this.textBox2.Size = new System.Drawing.Size(412, 43);
+            this.textBox2.TabIndex = 1;
             // 
             // textBox1
             // 
-            textBox1.CustomizableEdges = customizableEdges17;
-            textBox1.DefaultText = "";
-            textBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            textBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            textBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            textBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            textBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            textBox1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            textBox1.Location = new Point(84, 236);
-            textBox1.Margin = new Padding(4);
-            textBox1.Name = "textBox1";
-            textBox1.PasswordChar = '\0';
-            textBox1.PlaceholderText = "";
-            textBox1.SelectedText = "";
-            textBox1.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            textBox1.Size = new Size(412, 43);
-            textBox1.TabIndex = 0;
+            this.textBox1.CustomizableEdges = customizableEdges7;
+            this.textBox1.DefaultText = "";
+            this.textBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.textBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.textBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBox1.Location = new System.Drawing.Point(84, 236);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '\0';
+            this.textBox1.PlaceholderText = "";
+            this.textBox1.SelectedText = "";
+            this.textBox1.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            this.textBox1.Size = new System.Drawing.Size(412, 43);
+            this.textBox1.TabIndex = 0;
             // 
             // btnBack
             // 
-            btnBack.BorderColor = Color.FromArgb(157, 74, 67);
-            btnBack.BorderRadius = 10;
-            btnBack.BorderThickness = 2;
-            btnBack.CustomizableEdges = customizableEdges19;
-            btnBack.DisabledState.BorderColor = Color.DarkGray;
-            btnBack.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnBack.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnBack.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnBack.FillColor = Color.FromArgb(254, 102, 3);
-            btnBack.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            btnBack.ForeColor = Color.White;
-            btnBack.Image = (Image)resources.GetObject("btnBack.Image");
-            btnBack.ImageSize = new Size(25, 25);
-            btnBack.Location = new Point(12, 12);
-            btnBack.Name = "btnBack";
-            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            btnBack.Size = new Size(56, 49);
-            btnBack.TabIndex = 20;
-            btnBack.Click += btnBack_Click;
+            this.btnBack.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.btnBack.BorderRadius = 10;
+            this.btnBack.BorderThickness = 2;
+            this.btnBack.CustomizableEdges = customizableEdges9;
+            this.btnBack.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBack.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBack.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBack.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBack.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.btnBack.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
+            this.btnBack.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnBack.Location = new System.Drawing.Point(74, 12);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            this.btnBack.Size = new System.Drawing.Size(56, 49);
+            this.btnBack.TabIndex = 20;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click_1);
             // 
             // label4
             // 
-            label4.Font = new Font("Playground", 45F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.FromArgb(254, 102, 3);
-            label4.Location = new Point(50, 64);
-            label4.Name = "label4";
-            label4.Size = new Size(479, 130);
-            label4.TabIndex = 21;
-            label4.Text = "COLUMNAR TRANSPOSITION";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
+            this.label4.Font = new System.Drawing.Font("Playground", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.label4.Location = new System.Drawing.Point(50, 64);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(479, 130);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "COLUMNAR TRANSPOSITION";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnCopy
+            // 
+            this.btnCopy.BackColor = System.Drawing.Color.Transparent;
+            this.btnCopy.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.btnCopy.BorderRadius = 10;
+            this.btnCopy.BorderThickness = 2;
+            this.btnCopy.CustomizableEdges = customizableEdges11;
+            this.btnCopy.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCopy.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCopy.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCopy.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCopy.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.btnCopy.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCopy.ForeColor = System.Drawing.Color.White;
+            this.btnCopy.Location = new System.Drawing.Point(425, 444);
+            this.btnCopy.Name = "btnCopy";
+            this.btnCopy.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            this.btnCopy.Size = new System.Drawing.Size(71, 32);
+            this.btnCopy.TabIndex = 23;
+            this.btnCopy.Text = "Copy";
+            this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
+            // 
+            // btnHome
+            // 
+            this.btnHome.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.btnHome.BorderRadius = 10;
+            this.btnHome.BorderThickness = 2;
+            this.btnHome.CustomizableEdges = customizableEdges13;
+            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.btnHome.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
+            this.btnHome.Location = new System.Drawing.Point(12, 12);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            this.btnHome.Size = new System.Drawing.Size(56, 49);
+            this.btnHome.TabIndex = 39;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
+            // btnRetry
+            // 
+            this.btnRetry.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.btnRetry.BorderRadius = 10;
+            this.btnRetry.BorderThickness = 2;
+            this.btnRetry.CustomizableEdges = customizableEdges15;
+            this.btnRetry.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRetry.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRetry.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRetry.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRetry.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.btnRetry.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRetry.ForeColor = System.Drawing.Color.White;
+            this.btnRetry.Image = ((System.Drawing.Image)(resources.GetObject("btnRetry.Image")));
+            this.btnRetry.Location = new System.Drawing.Point(449, 12);
+            this.btnRetry.Name = "btnRetry";
+            this.btnRetry.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            this.btnRetry.Size = new System.Drawing.Size(56, 49);
+            this.btnRetry.TabIndex = 38;
+            this.btnRetry.Click += new System.EventHandler(this.btnRetry_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.btnExit.BorderRadius = 10;
+            this.btnExit.BorderThickness = 2;
+            this.btnExit.CustomizableEdges = customizableEdges17;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.btnExit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
+            this.btnExit.Location = new System.Drawing.Point(511, 12);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            this.btnExit.Size = new System.Drawing.Size(56, 49);
+            this.btnExit.TabIndex = 37;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(74)))), ((int)(((byte)(67)))));
+            this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.BorderThickness = 2;
+            this.guna2Button1.CustomizableEdges = customizableEdges19;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(102)))), ((int)(((byte)(3)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.Location = new System.Drawing.Point(387, 12);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            this.guna2Button1.Size = new System.Drawing.Size(56, 49);
+            this.guna2Button1.TabIndex = 40;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // AESDecryptionForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(243, 239, 212);
-            ClientSize = new Size(576, 610);
-            Controls.Add(label4);
-            Controls.Add(btnBack);
-            Controls.Add(label3);
-            Controls.Add(richTextBox1);
-            Controls.Add(button3);
-            Controls.Add(button1);
-            Controls.Add(label1);
-            Controls.Add(label2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Name = "AESDecryptionForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Columnar Transposition";
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(239)))), ((int)(((byte)(212)))));
+            this.ClientSize = new System.Drawing.Size(576, 610);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btnHome);
+            this.Controls.Add(this.btnRetry);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnCopy);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Name = "AESDecryptionForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Columnar Transposition";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -243,5 +370,10 @@
         private Guna.UI2.WinForms.Guna2TextBox textBox1;
         private Guna.UI2.WinForms.Guna2Button btnBack;
         private Label label4;
+        private Guna.UI2.WinForms.Guna2Button btnCopy;
+        private Guna.UI2.WinForms.Guna2Button btnHome;
+        private Guna.UI2.WinForms.Guna2Button btnRetry;
+        private Guna.UI2.WinForms.Guna2Button btnExit;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

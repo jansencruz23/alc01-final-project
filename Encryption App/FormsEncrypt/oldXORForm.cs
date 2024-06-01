@@ -10,14 +10,27 @@ using System.Windows.Forms;
 
 namespace Encryption_App.Forms
 {
-    public partial class XORForm_Decrypt : Form
+    public partial class oldXORForm : Form
     {
-        public XORForm_Decrypt()
+        public oldXORForm()
         {
             InitializeComponent();
         }
 
-      /*  private void button_Decrypt_Click(object sender, EventArgs e)
+        private void button_Encrypt_Click(object sender, EventArgs e)
+        {
+            //kunin lang
+            string text = tbWord.Text;
+            string key = tbKey.Text;
+
+            // Encrypt the text
+            string encryptedText = Encrypt(text, key);
+
+            // Display encrypted text
+            tbEncrypted.Text = "Encrypted Word: " + encryptedText;
+        }
+
+        private void button_Decrypt_Click(object sender, EventArgs e)
         {
             //kunin lang
             string encryptedText = labelEncrypted.Text.Substring("Encrypted Word: ".Length);
@@ -28,6 +41,22 @@ namespace Encryption_App.Forms
 
             // Display decrypted text
             labelDecrypted.Text = "Decrypted Word: " + decryptedText;
+        }
+
+        private string Encrypt(string word, string key)
+        {
+            StringBuilder encryptedWord = new StringBuilder();
+            for (int i = 0; i < word.Length; i++)
+            {
+                int wordAscii = (int)word[i];
+
+                int keyAscii = (int)key[i % key.Length]; // Ensure key is repeated if shorter than word
+
+                int xorResult = wordAscii ^ keyAscii;
+                string binaryResult = Convert.ToString(xorResult, 2).PadLeft(8, '0'); // ASCII is 8 bits
+                encryptedWord.Append(binaryResult + " ");
+            }
+            return encryptedWord.ToString().Trim();
         }
 
         private string Decrypt(string encryptedWord, string key)
@@ -42,7 +71,12 @@ namespace Encryption_App.Forms
                 char decryptedChar = (char)decryptedAscii;
                 decryptedWord.Append(decryptedChar);
             }
-            return decryptedWord.ToString();*/
-/*        }*/
+            return decryptedWord.ToString();
+        }
+
+        private void oldXORForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

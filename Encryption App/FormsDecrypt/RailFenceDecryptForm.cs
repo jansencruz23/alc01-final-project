@@ -196,5 +196,11 @@ namespace Encryption_App.FormsDecrypt
         {
             Environment.Exit(1);
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            var form = new RailFenceInfo();
+            form.ShowDialog();
+        }
     }
 }

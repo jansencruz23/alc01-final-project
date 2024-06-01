@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Encryption_App.Info;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -133,12 +134,43 @@ namespace Encryption_App.Forms
             richTextBox1.Text = string.Empty;
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        private void btnCopy_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(richTextBox1.Text);
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
         {
             Hide();
-            var form = new ChoiceForm();
+            var form = new MainMenu();
             form.FormClosed += (s, args) => Close();
             form.Show();
+        }
+
+        private void btnBack_Click_1(object sender, EventArgs e)
+        {
+            Hide();
+            var form = new ChoiceDecryptionForm();
+            form.FormClosed += (s, args) => Close();
+            form.Show();
+        }
+
+        private void btnRetry_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            richTextBox1.Clear();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            var form = new ColumnerInfo();
+            form.ShowDialog();
         }
     }
 }

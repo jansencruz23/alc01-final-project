@@ -3,11 +3,12 @@ D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.ColumnarDecryptionForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.PlayFairDecryptForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.RailFenceDecryptForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORFormDecrypt.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.AESDecryptionForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.oldXORForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.PlayFairForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm.resources
-D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.XORForm_Decrypt.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Info.RailFenceInfo.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.MainMenu.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Properties.Resources.resources
@@ -34,3 +35,6 @@ D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.pdb
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption App.genruntimeconfig.cache
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\ref\Encryption App.dll
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Info.ColumnerInfo.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Info.PlayFairInfo.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Info.XORInfo.resources
