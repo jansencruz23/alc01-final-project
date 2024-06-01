@@ -54,3 +54,4 @@ D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.RailFenceForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Forms.ChoiceDecryptionForm.resources
 D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.FormsDecrypt.RailFenceDecryptForm.resources
+D:\User\Jansen\Self Study\2024 - 05 - MAY\alc01-final-project\Encryption App\obj\Debug\net7.0-windows\Encryption_App.Info.RailFenceInfo.resources

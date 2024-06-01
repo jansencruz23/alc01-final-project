@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Encryption_App.Info;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -138,6 +139,12 @@ namespace Encryption_App.Forms
             lblNotif.Visible = true;
             await Task.Delay(2000);
             lblNotif.Visible = false;
+        }
+
+        private void btnInfo_Click(object sender, EventArgs e)
+        {
+            var form = new RailFenceInfo();
+            form.ShowDialog();
         }
     }
 }
