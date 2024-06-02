@@ -27,18 +27,24 @@ namespace Encryption_App.Forms
 
             HideErrors();
 
+            try
+            {
+                //inputs
+                string text = txtInput.Text;
+                string key = txtKey.Text;
 
-            //inputs
-            string text = txtInput.Text;
-            string key = txtKey.Text;
+                // Encrypt the text
+                string encryptedText = Encrypt(text, key);
 
-            // Encrypt the text
-            string encryptedText = Encrypt(text, key);
+                // Display encrypted text
+                lblResult.Text = encryptedText;
 
-            // Display encrypted text
-            lblResult.Text = encryptedText;
-
-            panelAnswer.Visible = true;
+                panelAnswer.Visible = true;
+            }
+            catch
+            {
+                MessageBox.Show("Please enter a valid message or key.");
+            }
         }
 
         private string Encrypt(string word, string key)

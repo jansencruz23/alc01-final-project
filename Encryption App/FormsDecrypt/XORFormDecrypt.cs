@@ -21,17 +21,24 @@ namespace Encryption_App.Forms
 
         private void button_Decrypt_Click(object sender, EventArgs e)
         {
-            //  input reader lang   
-            string encryptedText = txtInput.Text.Trim(); //input nag reremove ng excess white space sa dulo
-            string key = txtKey.Text;
+            try
+            {
+                //  input reader lang   
+                string encryptedText = txtInput.Text.Trim(); //input nag reremove ng excess white space sa dulo
+                string key = txtKey.Text;
 
-            // Decrypt the encrypted text
-            string decryptedText = Decrypt(encryptedText, key);
+                // Decrypt the encrypted text
+                string decryptedText = Decrypt(encryptedText, key);
 
-            // Display decrypted text
-            lblResult.Text = "Decrypted Word: " + decryptedText;
+                // Display decrypted text
+                lblResult.Text = decryptedText;
 
-            panelAnswer.Visible = true;
+                panelAnswer.Visible = true;
+            }
+            catch
+            {
+                MessageBox.Show("Please enter a valid message or key.");
+            }
         }
 
         private string Decrypt(string encryptedWord, string key)

@@ -31,13 +31,20 @@ namespace Encryption_App.FormsDecrypt
 
             HideErrors();
 
-            string message = txtInput.Text;
-            _key = txtKey.Text;
-            GenerateKeySquare(_key);
-            string decryptedMessage = Decrypt(message);
+            try
+            {
+                string message = txtInput.Text;
+                _key = txtKey.Text;
+                GenerateKeySquare(_key);
+                string decryptedMessage = Decrypt(message);
 
-            lblResult.Text = decryptedMessage;
-            panelAnswer.Visible = true;
+                lblResult.Text = decryptedMessage;
+                panelAnswer.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private bool ValidateInputs()

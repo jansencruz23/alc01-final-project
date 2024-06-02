@@ -30,12 +30,19 @@ namespace Encryption_App.Forms
 
             HideErrors();
 
-            string message = txtInput.Text;
-            _key = txtKey.Text;
-            string encryptedMessage = Encrypt(message, _key);
+            try
+            {
+                string message = txtInput.Text;
+                _key = txtKey.Text;
+                string encryptedMessage = Encrypt(message, _key);
 
-            lblResult.Text = encryptedMessage;
-            panelAnswer.Visible = true;
+                lblResult.Text = encryptedMessage;
+                panelAnswer.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private bool ValidateInputs()

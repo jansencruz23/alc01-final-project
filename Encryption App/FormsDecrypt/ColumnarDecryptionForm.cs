@@ -26,8 +26,8 @@ namespace Encryption_App.FormsDecrypt
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox1.Text = string.Empty;
-            textBox2.Text = string.Empty;
+            txtInput.Text = string.Empty;
+            txtKey.Text = string.Empty;
             richTextBox1.Text = string.Empty;
         }
 
@@ -86,8 +86,8 @@ namespace Encryption_App.FormsDecrypt
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            string cipherText = textBox1.Text;
-            string key = textBox2.Text;
+            string cipherText = txtInput.Text;
+            string key = txtKey.Text;
 
             if (string.IsNullOrEmpty(cipherText) || string.IsNullOrEmpty(key))
             {
@@ -95,8 +95,16 @@ namespace Encryption_App.FormsDecrypt
                 return;
             }
 
-            string decryptedMessage = ColumnarTranspositionCipher.DecryptMessage(cipherText, key);
-            richTextBox1.Text = decryptedMessage;
+            try
+            {
+                string decryptedMessage = ColumnarTranspositionCipher.DecryptMessage(cipherText, key);
+                richTextBox1.Text = decryptedMessage;
+                panelAnswer.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Enter a valid message or key");
+            }   
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -124,6 +132,19 @@ namespace Encryption_App.FormsDecrypt
         {
             var form = new ColumnerInfo();
             form.ShowDialog();
+        }
+
+        private void ColumnarDecryptionForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void btnCopy_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(richTextBox1.Text);
+            lblNotif.Visible = true;
+            await Task.Delay(2000);
+            lblNotif.Visible = false;
         }
     }
 }

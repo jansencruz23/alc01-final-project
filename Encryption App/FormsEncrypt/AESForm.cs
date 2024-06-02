@@ -20,8 +20,8 @@ namespace Encryption_App.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string message = textBox1.Text;
-            string key = textBox2.Text;
+            string message = txtInput.Text;
+            string key = txtKey.Text;
 
             if (string.IsNullOrEmpty(message) || string.IsNullOrEmpty(key))
             {
@@ -29,8 +29,16 @@ namespace Encryption_App.Forms
                 return;
             }
 
-            string encryptedMessage = ColumnarTranspositionCipher.EncryptMessage(message, key);
-            richTextBox1.Text = encryptedMessage;
+            try
+            {
+                string encryptedMessage = ColumnarTranspositionCipher.EncryptMessage(message, key);
+                richTextBox1.Text = encryptedMessage;
+                panelAnswer.Visible = true;
+            }
+            catch
+            {
+                MessageBox.Show("Please enter a valid message or key.");
+            }
         }
 
         public static class ColumnarTranspositionCipher
@@ -129,14 +137,17 @@ namespace Encryption_App.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox1.Text = string.Empty;
-            textBox2.Text = string.Empty;
+            txtInput.Text = string.Empty;
+            txtKey.Text = string.Empty;
             richTextBox1.Text = string.Empty;
         }
 
-        private void btnCopy_Click(object sender, EventArgs e)
+        private async void btnCopy_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(richTextBox1.Text);
+            lblNotif.Visible = true;
+            await Task.Delay(2000);
+            lblNotif.Visible = false;
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -157,9 +168,9 @@ namespace Encryption_App.Forms
 
         private void btnRetry_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
-            textBox2.Clear();
-            richTextBox1.Clear();
+            txtInput.Clear();
+            txtKey.Clear();
+            richTextBox1.Text = "";
         }
 
         private void btnExit_Click(object sender, EventArgs e)

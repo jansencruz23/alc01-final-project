@@ -30,12 +30,19 @@ namespace Encryption_App.FormsDecrypt
 
             HideErrors();
 
-            int.TryParse(txtKey.Text, out _rails);
-            var input = txtInput.Text;
-            var encryptedText = Decrypt(input);
+            try
+            {
+                int.TryParse(txtKey.Text, out _rails);
+                var input = txtInput.Text;
+                var encryptedText = Decrypt(input);
 
-            panelAnswer.Visible = true;
-            lblResult.Text = encryptedText;
+                panelAnswer.Visible = true;
+                lblResult.Text = encryptedText;
+            }
+            catch
+            {
+                MessageBox.Show("Please enter a valid message or key");
+            }
         }
 
         private bool ValidateInputs()
